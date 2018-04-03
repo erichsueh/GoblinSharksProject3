@@ -12,6 +12,7 @@ from kivy.uix.label import Label
 from kivy.uix.textinput import TextInput
 from kivy.uix.button import Button
 from kivy.uix.boxlayout import BoxLayout
+from kivy.uix.togglebutton import ToggleButton
 
 
 class LoginScreen(BoxLayout):
@@ -27,43 +28,43 @@ class LoginScreen(BoxLayout):
         self.add_widget(middle_layout) # Include into instance
         middle_layout.add_widget(Label(text="cards and filter buttons somewhere here"))
 
-        btn1 = Button(text='Hello world 1')
+        btn1 = ToggleButton(text='Testing', group="top_bar")
         btn1.bind(on_press=self.callback)
         top_layout.add_widget(btn1)
 
-        btn2 = Button(text='Hello world 2')
+        btn2 = ToggleButton(text='Logging', group="top_bar")
         btn2.bind(on_press=self.callback)
         top_layout.add_widget(btn2)
 
-        btn3 = Button(text='Hello world 3')
+        btn3 = ToggleButton(text='Utilities', group="top_bar")
         btn3.bind(on_press=self.callback)
         top_layout.add_widget(btn3)
 
-        btn4 = Button(text='Hello world 4')
+        btn4 = ToggleButton(text='Mocking', group="top_bar")
         btn4.bind(on_press=self.callback)
         top_layout.add_widget(btn4)
 
-        btn5 = Button(text='Hello world 5')
+        btn5 = ToggleButton(text='Cryptography', group="top_bar")
         btn5.bind(on_press=self.callback)
         top_layout.add_widget(btn5)
 
-        btn6 = Button(text='Hello world 6')
+        btn6 = ToggleButton(text='JSON', group="top_bar")
         btn6.bind(on_press=self.callback)
         top_layout.add_widget(btn6)
 
-        btn7 = Button(text='Hello world 7')
+        btn7 = ToggleButton(text='Databases', group="top_bar")
         btn7.bind(on_press=self.callback)
         top_layout.add_widget(btn7)
 
-        btn8 = Button(text='Hello world 8')
+        btn8 = ToggleButton(text='Security', group="top_bar")
         btn8.bind(on_press=self.callback)
         top_layout.add_widget(btn8)
 
-        btn9 = Button(text='Hello world 9')
+        btn9 = ToggleButton(text='OBJ Mapping', group="top_bar")
         btn9.bind(on_press=self.callback)
         top_layout.add_widget(btn9)
 
-        btn10 = Button(text='Hello world 10')
+        btn10 = ToggleButton(text='XML', group="top_bar")
         btn10.bind(on_press=self.callback)
         top_layout.add_widget(btn10)
 

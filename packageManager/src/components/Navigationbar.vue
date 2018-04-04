@@ -4,19 +4,19 @@
 
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
-      <b-navbar-brand href="#">NavBar</b-navbar-brand>
+      <b-navbar-brand href="#/">TITLE TO GO HERE</b-navbar-brand>
 
       <b-collapse is-nav id="nav_collapse">
 
-        <b-navbar-nav>
+        <!-- <b-navbar-nav>
           <b-nav-item href="#">Link</b-nav-item>
           <b-nav-item href="#" disabled>Disabled</b-nav-item>
-        </b-navbar-nav>
+        </b-navbar-nav> -->
 
       </b-collapse>
     </b-navbar>
 
-    <b-nav fill tabs>
+    <!-- <b-nav fill tabs>
       <b-nav-item active>Active</b-nav-item>
       <b-nav-item href="#/tab">Link</b-nav-item>
       <b-nav-item>Link with a long name </b-nav-item>
@@ -47,7 +47,7 @@
           </b-media>
         </b-media-body>
       </b-media>
-    </b-card>
+    </b-card> -->
     
   </div>
 </template>

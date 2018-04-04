@@ -1,21 +1,17 @@
 <template>
   <navigationbar></navigationbar>
-  <div class="hello">
+  <!-- <div class="hello">
     {{msg}}
-  </div>
+  </div> -->
 </template>
 
 <script>
-import Navigationbar from './Navigationbar.vue' 
 export default {
   name: 'hello',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
-  },
-  components: {
-    Navigationbar,
   }
 
 }

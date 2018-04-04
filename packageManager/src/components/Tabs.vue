@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar toggleable="md" type="dark" variant="info">
+    <!-- <b-navbar toggleable="md" type="dark" variant="info">
 
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
@@ -14,7 +14,7 @@
         </b-navbar-nav>
 
       </b-collapse>
-    </b-navbar>
+    </b-navbar> -->
 
     <b-nav fill tabs>
       <b-nav-item href="#/">Active</b-nav-item>

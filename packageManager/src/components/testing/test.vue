@@ -12,9 +12,14 @@
         <b-nav-item to="/object-relational-mapping">Object Relational Mapping</b-nav-item>
         <b-nav-item to="/xml">XML</b-nav-item>
     </b-nav>
+    
     <b-button to="/testing/test1">To Test1</b-button>
     <b-button to="/testing/test2">To Test2</b-button>
-    <router-view></router-view>
+
+    <transition name="fade">
+      <router-view></router-view>
+    </transition>
+
   </div>
 </template>
 

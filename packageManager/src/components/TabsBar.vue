@@ -7,7 +7,7 @@
       <b-nav-item disabled>Disabled</b-nav-item>
     </b-nav> -->
 
-    <b-card no-body>
+    <!-- <b-card no-body>
       <b-tabs card v-model="tabIndex">
         <b-tab title="Testing" :title-link-class="linkClass(0)">
           Testing Contents
@@ -40,7 +40,20 @@
           XML Contents 
         </b-tab>
       </b-tabs>
-    </b-card>
+    </b-card> -->
+
+    <b-nav tabs>
+      <b-nav-item>Testing</b-nav-item>
+      <b-nav-item>Logging</b-nav-item>
+      <b-nav-item>Utilities</b-nav-item>
+      <b-nav-item>Mocking</b-nav-item>
+      <b-nav-item>Cryptography</b-nav-item>
+      <b-nav-item>JSON</b-nav-item>
+      <b-nav-item>Databases</b-nav-item>
+      <b-nav-item>Security</b-nav-item>
+      <b-nav-item>Object Relational Mapping</b-nav-item>
+      <b-nav-item>XML</b-nav-item>
+    </b-nav>
   </div>
 </template>
 

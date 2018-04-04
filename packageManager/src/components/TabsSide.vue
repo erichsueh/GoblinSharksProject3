@@ -20,7 +20,7 @@
           <b-tab title="JSON">
           Tab Contents 3
           </b-tab>
-          <b-tab title="Databases">
+          <b-tab title="Databases">   
           Tab Contents 3
           </b-tab>
           <b-tab title="Security">

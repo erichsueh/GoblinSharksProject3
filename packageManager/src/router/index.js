@@ -2,6 +2,9 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
 import TestingMain from '@/components/testing/test'
+import Test1 from '@/components/testing/test1'
+import Test2 from '@/components/testing/test2'
+
 import LoggingMain from '@/components/logging/log'
 import UtilMain from '@/components/utilities/util'
 import MockingMain from '@/components/mocking/mock'
@@ -24,7 +27,17 @@ export default new Router({
     {
       path: '/testing',
       name: 'testing',
-      component: TestingMain
+      component: TestingMain,
+      children: [
+        {
+          path: 'test1',
+          component: Test1
+        },
+        {
+          path: 'test2',
+          component: Test2
+        }
+      ]
     },
     {
       path: '/logging',

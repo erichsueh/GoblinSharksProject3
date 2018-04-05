@@ -45,7 +45,6 @@
           <br>
           <div class="filter">
 
-            <!-- pop, stack, iss, diff, date -->
           <b-row>
             <b-button to="/testing/popularity" block="true" variant="outline-success" id="Performance" class="testingBtn">Popularity</b-button> 
           </b-row>

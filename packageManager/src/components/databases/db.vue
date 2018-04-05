@@ -26,6 +26,8 @@
           </center> 
         </b-col>
         
+        <b-col cols="1"/>
+
         <b-col cols="2">
           <br>
           <br>
@@ -34,20 +36,21 @@
           <br>
           <br>
           <div class="filter">
+
           <b-row>
             <b-button to="/databases/popularity" block="true" variant="outline-success" id="Performance" class="testingBtn">Popularity</b-button> 
           </b-row>
           <br>
           <b-row>
-            <b-button to="/databases/issue" block="true" variant="outline-warning" id="IssueResolve" class="testingBtn">Issue Resolve Time</b-button>
+            <b-button to="/databases/stackoverflow" block="true" variant="outline-primary" id="Stackoverflow" class="testingBtn">Number of Stackoverflow</b-button>
+          </b-row>
+          <br>
+          <b-row>
+            <b-button to="/databases/issue" block="true" variant="outline-info" id="IssueResolve" class="testingBtn">Issue Resolve Time</b-button>
           </b-row>
           <br>
           <b-row>
             <b-button to="/databases/differences" block="true" variant="outline-danger" id="Differences" class="testingBtn">Number of Differences</b-button>
-          </b-row>
-          <br>
-           <b-row>
-            <b-button to="/databases/stackoverflow" block="true" variant="outline-primary" id="Stackoverflow" class="testingBtn">Number of Stackoverflow</b-button>
           </b-row>
           <br>
           <b-row>

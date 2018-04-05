@@ -65,4 +65,8 @@ export default {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+p {
+text-align: left
+}
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <h1>Performance</h1>
+  <h1>Test Home</h1>
 </template>
 
 <script>

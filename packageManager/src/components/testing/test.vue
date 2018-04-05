@@ -13,13 +13,29 @@
         <b-nav-item to="/xml">XML</b-nav-item>
     </b-nav>
     
-    <b-button to="/testing/test1">To Test1</b-button>
-    <b-button to="/testing/test2">To Test2</b-button>
+    <!-- <b-button to="/testing/test1">To Test1</b-button>
+    <b-button to="/testing/test2">To Test2</b-button> -->
 
-    <transition name="fade">
+    <!-- <transition name="fade">
       <router-view></router-view>
-    </transition>
+    </transition> -->
 
+
+    
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm">
+          <transition name="fade">
+            <router-view></router-view>
+          </transition>
+        </div>
+        
+        <div class="col-sm">
+          <b-button to="/testing/test1">To Test1</b-button>
+          <b-button to="/testing/test2">To Test2</b-button>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 

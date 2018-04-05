@@ -28,7 +28,9 @@
       <b-row>
         <b-col cols="8">
           <transition name="fade">
-            <router-view></router-view>
+            <center>
+              <router-view></router-view>
+            </center>
           </transition>
         </b-col>
         
@@ -40,7 +42,7 @@
           <br>
           <br>
           <b-row>
-            <b-button to="/testing/test1" block="true" variant="outline-success" id="Performance" class="testingBtn">Performance</b-button>
+            <b-button to="/testing/test1" block="true" variant="outline-success" id="Performance" class="testingBtn">Performance</b-button> 
           </b-row>
           <br>
           <b-row>

@@ -43,7 +43,7 @@
           <br>
           <div class="filter">
           <b-row>
-            <b-button to="/testing/test1" block="true" variant="outline-success" id="Performance" class="testingBtn">Performance</b-button> 
+            <b-button to="/testing/test1" block="true" variant="outline-success" id="Performance" class="testingBtn">Popularity</b-button> 
           </b-row>
           <br>
           <b-row>
@@ -51,11 +51,11 @@
           </b-row>
           <br>
           <b-row>
-            <b-button to="/testing/test3" block="true" variant="outline-danger" id="Differences" class="testingBtn"># of differences</b-button>
+            <b-button to="/testing/test3" block="true" variant="outline-danger" id="Differences" class="testingBtn">Number of Differences</b-button>
           </b-row>
           <br>
            <b-row>
-            <b-button to="/testing/test4" block="true" variant="outline-primary" id="Stackoverflow" class="testingBtn"># of stackoverflow</b-button>
+            <b-button to="/testing/test4" block="true" variant="outline-primary" id="Stackoverflow" class="testingBtn">Number of Stackoverflow</b-button>
           </b-row>
           <br>
           <b-row>

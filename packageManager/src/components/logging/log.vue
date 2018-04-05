@@ -1,7 +1,7 @@
 <template>
-<div>
-  <div class="sticky">
-    <b-nav tabs >
+  <div>
+    <div class="sticky">
+      <b-nav tabs>
         <b-nav-item to="/testing">Testing</b-nav-item>
         <b-nav-item to="/logging" active>Logging</b-nav-item>
         <b-nav-item to="/utilities">Utilities</b-nav-item>
@@ -13,107 +13,51 @@
         <b-nav-item to="/object-relational-mapping">Object Relational Mapping</b-nav-item>
         <b-nav-item to="/xml">XML</b-nav-item>
       </b-nav>
-  </div>
-    <b-card>
-      <b-media no-body>
-        <b-media-aside vertical-align="center">
-          <b-img width="256" height="256" src="http://juliandance.org/wp-content/uploads/2016/01/RedApple.jpg"/>
-        </b-media-aside>
-        <b-media-body class="ml-3">
-          <h5 class="mt-0">Media Title</h5>
-          <p>
-            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-            sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-            Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
-            in faucibus.
-          </p>
-          <p class="mb-0">
-            Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum
-            sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-          </p>
-          <b-media>
-            <h5 class="mt-0">Nested Media</h5>
-            Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
-            felis in faucibus.
-          </b-media>
-        </b-media-body>
-      </b-media>
-    </b-card>
-    <b-card>
-      <b-media no-body>
-        <b-media-aside vertical-align="center">
-          <b-img width="256" height="256" src="http://juliandance.org/wp-content/uploads/2016/01/RedApple.jpg"/>
-        </b-media-aside>
-        <b-media-body class="ml-3">
-          <h5 class="mt-0">Media Title</h5>
-          <p>
-            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-            sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-            Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
-            in faucibus.
-          </p>
-          <p class="mb-0">
-            Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum
-            sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-          </p>
-          <b-media>
-            <h5 class="mt-0">Nested Media</h5>
-            Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
-            felis in faucibus.
-          </b-media>
-        </b-media-body>
-      </b-media>
-    </b-card>
-    <b-card>
-      <b-media no-body>
-        <b-media-aside vertical-align="center">
-          <b-img width="256" height="256" src="http://juliandance.org/wp-content/uploads/2016/01/RedApple.jpg"/>
-        </b-media-aside>
-        <b-media-body class="ml-3">
-          <h5 class="mt-0">Media Title</h5>
-          <p>
-            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-            sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-            Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
-            in faucibus.
-          </p>
-          <p class="mb-0">
-            Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum
-            sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-          </p>
-          <b-media>
-            <h5 class="mt-0">Nested Media</h5>
-            Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
-            felis in faucibus.
-          </b-media>
-        </b-media-body>
-      </b-media>
-    </b-card>
-    <b-card>
-      <b-media no-body>
-        <b-media-aside vertical-align="center">
-          <b-img width="256" height="256" src="http://juliandance.org/wp-content/uploads/2016/01/RedApple.jpg"/>
-        </b-media-aside>
-        <b-media-body class="ml-3">
-          <h5 class="mt-0">Media Title</h5>
-          <p>
-            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-            sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-            Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
-            in faucibus.
-          </p>
-          <p class="mb-0">
-            Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum
-            sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-          </p>
-          <b-media>
-            <h5 class="mt-0">Nested Media</h5>
-            Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
-            felis in faucibus.
-          </b-media>
-        </b-media-body>
-      </b-media>
-    </b-card>
+    </div>
+
+      
+    <b-container fluid>
+      <b-row>
+        <b-col cols="8">
+          <center>
+            <transition name="fade">
+              <router-view></router-view>
+            </transition>
+          </center> 
+        </b-col>
+        
+        <b-col cols="2">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <div class="filter">
+          <b-row>
+            <b-button to="/testing/test1" block="true" variant="outline-success" id="Performance" class="testingBtn">Popularity</b-button> 
+          </b-row>
+          <br>
+          <b-row>
+            <b-button to="/testing/test2" block="true" variant="outline-warning" id="IssueResolve" class="testingBtn">Issue Resolve Time</b-button>
+          </b-row>
+          <br>
+          <b-row>
+            <b-button to="/testing/test3" block="true" variant="outline-danger" id="Differences" class="testingBtn">Number of Differences</b-button>
+          </b-row>
+          <br>
+          <b-row>
+            <b-button to="/testing/test4" block="true" variant="outline-primary" id="Stackoverflow" class="testingBtn">Number of Stackoverflow</b-button>
+          </b-row>
+          <br>
+          <b-row>
+            <b-button to="/testing/test5" block="true" variant="outline-secondary" id="Date" class="testingBtn">Date</b-button>
+          </b-row>
+          </div>
+        </b-col>
+        
+      </b-row>
+    </b-container>
   </div>
 </template>
 

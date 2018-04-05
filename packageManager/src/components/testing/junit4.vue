@@ -1,21 +1,29 @@
 <template>
-  <div class="card" id="junit4-card">
-    <b-row>
-    <center>
-      <h1> junit4 </h1>
-    </center>
-    </b-row>
+<div class="card-padding">
+  <b-card>
     <b-row>
       <b-col>
-        <img src="../../assets/Screen_Shot_2018-04-04_at_7.43.04_PM.png"/>
-      </b-col>
-      <b-col>
-        <p class="card-text">
-          JUnit is a simple framework to write repeatable tests. It is an instance of the xUnit architecture for unit testing frameworks.
-        </p>
+
+        <a class="card-link" target="_blank" href="https://github.com/junit-team/junit4" id="logo"> 
+          <h1 class="card-header">JUnit</h1> 
+        </a>
+
+        <b-card-body>
+          <p>
+            JUnit is a simple framework to write repeatable tests. It is an instance of the xUnit architecture for unit testing frameworks.
+          </p>
+        </b-card-body>
+
         <b-button target="_blank" href="https://github.com/junit-team/junit4"> GitHub Link</b-button>
       </b-col>
+
+      <b-col>
+        <img src="../../assets/JUnit.jpg"/>
+      </b-col>
+
     </b-row>
+  
+  </b-card>
   </div>
 </template>
 
@@ -39,5 +47,6 @@ img {
   width: 100px;
   height: 100px;
 }
+
 
 </style>

@@ -1,14 +1,30 @@
 <template>
-  <b-card tag="article"
-            style="max-width: 40rem;"
-            class="mb-2">
+<div class="card-padding">
+  <b-card>
+    <b-row>
+      <b-col>
 
-    <a class="card-link" target="_blank" href="https://github.com/cbeust/testng" id="logo"> <h1 class="card-header">testng</h1> </a>
-    <img src="../../assets/Screen_Shot_2018-04-04_at_7.43.04_PM.png"/>        
-    <p class="card-text">
-      TestNG is a testing framework inspired from JUnit and NUnit but introducing some new functionalities that make it more powerful and easier to use
-    </p>
+        <a class="card-link" target="_blank" href="https://github.com/cbeust/testng" id="logo"> 
+          <h1 class="card-header">TestNG</h1> 
+        </a>
+
+        <b-card-body>
+          <p>
+            TestNG is a testing framework inspired from JUnit and NUnit but introducing some new functionalities that make it more powerful and easier to use
+          </p>
+        </b-card-body>
+        
+        <b-button target="_blank" href="https://github.com/cbeust/testng"> GitHub Link</b-button>
+      </b-col>
+
+      <b-col>
+        <img src="../../assets/TestNG.jpg"/>
+      </b-col>
+
+    </b-row>
+  
   </b-card>
+</div>
 </template>
 
 <script>

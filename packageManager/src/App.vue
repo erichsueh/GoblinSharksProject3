@@ -60,4 +60,9 @@ export default {
   /* z-index: 1020; */
   background-color: #ffffff;
 }
+
+.card-padding {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 </style>

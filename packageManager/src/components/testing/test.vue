@@ -87,11 +87,5 @@ export default {
 </script>
 
 <style>
-.filter {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 242px;
-  /* z-index: 1020; */
-  background-color: #ffffff;
-}
+
 </style>

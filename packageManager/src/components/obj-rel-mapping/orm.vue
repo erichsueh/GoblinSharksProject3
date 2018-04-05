@@ -35,23 +35,23 @@
           <br>
           <div class="filter">
           <b-row>
-            <b-button to="/testing/test1" block="true" variant="outline-success" id="Performance" class="testingBtn">Popularity</b-button> 
+            <b-button to="/object-relational-mapping/popularity" block="true" variant="outline-success" id="Performance" class="testingBtn">Popularity</b-button> 
           </b-row>
           <br>
           <b-row>
-            <b-button to="/testing/test2" block="true" variant="outline-warning" id="IssueResolve" class="testingBtn">Issue Resolve Time</b-button>
+            <b-button to="/object-relational-mapping/issue" block="true" variant="outline-warning" id="IssueResolve" class="testingBtn">Issue Resolve Time</b-button>
           </b-row>
           <br>
           <b-row>
-            <b-button to="/testing/test3" block="true" variant="outline-danger" id="Differences" class="testingBtn">Number of Differences</b-button>
+            <b-button to="/object-relational-mapping/differences" block="true" variant="outline-danger" id="Differences" class="testingBtn">Number of Differences</b-button>
+          </b-row>
+          <br>
+           <b-row>
+            <b-button to="/object-relational-mapping/stackoverflow" block="true" variant="outline-primary" id="Stackoverflow" class="testingBtn">Number of Stackoverflow</b-button>
           </b-row>
           <br>
           <b-row>
-            <b-button to="/testing/test4" block="true" variant="outline-primary" id="Stackoverflow" class="testingBtn">Number of Stackoverflow</b-button>
-          </b-row>
-          <br>
-          <b-row>
-            <b-button to="/testing/test5" block="true" variant="outline-secondary" id="Date" class="testingBtn">Date</b-button>
+            <b-button to="/object-relational-mapping/date" block="true" variant="outline-secondary" id="Date" class="testingBtn">Date</b-button>
           </b-row>
           </div>
         </b-col>

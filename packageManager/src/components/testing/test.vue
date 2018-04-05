@@ -31,7 +31,7 @@
             <transition name="fade">
               <router-view></router-view>
             </transition>
-          </center>
+          </center> 
         </b-col>
         
         <b-col cols="2">
@@ -41,6 +41,7 @@
           <br>
           <br>
           <br>
+          <div class="filter">
           <b-row>
             <b-button to="/testing/test1" block="true" variant="outline-success" id="Performance" class="testingBtn">Performance</b-button> 
           </b-row>
@@ -60,7 +61,9 @@
           <b-row>
             <b-button to="/testing/test5" block="true" variant="outline-secondary" id="Date" class="testingBtn">Date</b-button>
           </b-row>
+          </div>
         </b-col>
+        
       </b-row>
     </b-container>
   </div>
@@ -84,5 +87,11 @@ export default {
 </script>
 
 <style>
-
+.filter {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 242px;
+  /* z-index: 1020; */
+  background-color: #ffffff;
+}
 </style>

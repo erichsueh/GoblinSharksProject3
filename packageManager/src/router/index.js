@@ -5,6 +5,9 @@ import TestingMain from '@/components/testing/test'
 import TestHome from '@/components/testing/testhome'
 import Test1 from '@/components/testing/test1'
 import Test2 from '@/components/testing/test2'
+import Test3 from '@/components/testing/test3'
+import Test4 from '@/components/testing/test4'
+import Test5 from '@/components/testing/test5'
 
 import LoggingMain from '@/components/logging/log'
 import UtilMain from '@/components/utilities/util'
@@ -41,6 +44,18 @@ export default new Router({
         {
           path: 'test2',
           component: Test2
+        },
+        {
+          path: 'test3',
+          component: Test3
+        },
+        {
+          path: 'test4',
+          component: Test4
+        },
+        {
+          path: 'test5',
+          component: Test5
         }
       ]
     },

@@ -24,20 +24,39 @@
     
     <b-container fluid>
       <b-row>
-        <b-col>
+        <b-col cols="8">
           <transition name="fade">
             <router-view></router-view>
           </transition>
         </b-col>
         
-        <b-col>
+        <b-col cols="2">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
           <b-row>
-            <b-button to="/testing/test1">To Test1</b-button>
+            <b-button to="/testing/test1" block="true" variant="outline-success" id="Performance" class="testingBtn">Performance</b-button>
           </b-row>
+          <br>
           <b-row>
-            <b-button to="/testing/test2">To Test2</b-button>
+            <b-button to="/testing/test2" block="true" variant="outline-warning" id="IssueResolve" class="testingBtn">Issue Resolve Time</b-button>
           </b-row>
-        </b-col>>
+          <br>
+          <b-row>
+            <b-button to="/testing/test3" block="true" variant="outline-danger" id="Differences" class="testingBtn"># of differences</b-button>
+          </b-row>
+          <br>
+           <b-row>
+            <b-button to="/testing/test4" block="true" variant="outline-primary" id="Stackoverflow" class="testingBtn"># of stackoverflow</b-button>
+          </b-row>
+          <br>
+          <b-row>
+            <b-button to="/testing/test5" block="true" variant="outline-secondary" id="Date" class="testingBtn">Date</b-button>
+          </b-row>
+        </b-col>
       </b-row>
     </b-container>
   </div>
@@ -45,6 +64,23 @@
 
 <script>
 export default {
-  name: 'testingmain'
+  name: 'testingmain',
+  data () {
+    return {
+      // buttons: [
+      //   { variant="outline-success", caption: "Performance", state: false  }
+      //   { variant="outline-warning", caption: "Issue Resolve Time", state: false  }
+      //   { variant="outline-danger", caption: "# of differences", state: false  }
+      //   { variant="outline-primary", caption: "StackOverflow", state: false  }
+        // { variant="outline-success", caption: "Performance", state: false  }
+      // ]
+    }
+  }
 }
 </script>
+
+<style>
+#Performance {
+
+}
+</style>

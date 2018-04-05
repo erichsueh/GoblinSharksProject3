@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div id="navTab"> 
+    <div> 
       <b-nav tabs>
           <b-nav-item to="/testing" active>Testing</b-nav-item>
           <b-nav-item to="/logging">Logging</b-nav-item>
@@ -82,7 +82,5 @@ export default {
 </script>
 
 <style>
-#navTab {
-  padding-top: 58px;
-}
+
 </style>

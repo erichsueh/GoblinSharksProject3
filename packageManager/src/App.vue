@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <navigationbar></navigationbar>
+    <div id="navTab">
     <router-view></router-view>
+    </div>
   </div>
 </template>
 
@@ -17,7 +19,6 @@ export default {
 </script>
 
 <style>
-
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -38,5 +39,9 @@ export default {
 
 .fade-enter, .fade-leave-active {
   opacity: 0
+}
+
+#navTab {
+  padding-top: 58px;
 }
 </style>

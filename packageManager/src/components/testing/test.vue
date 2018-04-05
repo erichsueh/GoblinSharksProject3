@@ -27,11 +27,11 @@
     <b-container fluid>
       <b-row>
         <b-col cols="8">
-          <transition name="fade">
-            <center>
+          <center>
+            <transition name="fade">
               <router-view></router-view>
-            </center>
-          </transition>
+            </transition>
+          </center>
         </b-col>
         
         <b-col cols="2">

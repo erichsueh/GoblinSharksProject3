@@ -1,5 +1,6 @@
 <template>
-  <b-nav tabs>
+  <div class="sticky">
+    <b-nav tabs>
       <b-nav-item to="/testing">Testing</b-nav-item>
       <b-nav-item to="/logging">Logging</b-nav-item>
       <b-nav-item to="/utilities">Utilities</b-nav-item>
@@ -11,6 +12,7 @@
       <b-nav-item to="/object-relational-mapping" active>Object Relational Mapping</b-nav-item>
       <b-nav-item to="/xml">XML</b-nav-item>
     </b-nav>
+  </div>
 </template>
 
 <script>

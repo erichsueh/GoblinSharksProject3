@@ -42,6 +42,14 @@ export default {
 }
 
 #navTab {
-  padding-top: 58px;
+  padding-top: 56px;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 56px;
+  z-index: 1020;
+  background-color: #ffffff;
 }
 </style>

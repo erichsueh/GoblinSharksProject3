@@ -2,12 +2,12 @@
   <b-card tag="article"
             style="max-width: 40rem;"
             class="mb-2">
-    <p id="title"> testng </p>
+
+    <a href="http://www.stopsweats.org" id="logo"> <h1>testng</h1> </a>
     <img src="../../assets/Screen_Shot_2018-04-04_at_7.43.04_PM.png"/>        
     <p class="card-text">
       TestNG is a testing framework inspired from JUnit and NUnit but introducing some new functionalities that make it more powerful and easier to use
     </p>
-    <b-button target="_blank" href="https://github.com/cbeust/testng"> GitHub Link</b-button>
   </b-card>
 </template>
 
@@ -30,5 +30,10 @@ img {
 .gitBtn {
   width: 100px;
   height: 100px;
+}
+
+.card-text {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 </style>

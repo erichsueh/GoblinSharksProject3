@@ -1,15 +1,22 @@
 <template>
-  <b-card tag="article"
-            style="max-width: 40rem;"
-            class="mb-2">
-    <p id="title"> junit4 </p>
-    <img src="../../assets/Screen_Shot_2018-04-04_at_7.43.04_PM.png"/>        
-    <p class="card-text">
-      JUnit is a simple framework to write repeatable tests. It is an instance of the xUnit architecture for unit testing frameworks.
-    </p>
-    <!-- <button class="gitBtn"><img src="../../assets/download.png"></button> -->
-    <b-button target="_blank" href="https://github.com/junit-team/junit4"> GitHub Link</b-button>
-  </b-card>
+  <div class="card" id="junit4-card">
+    <b-row>
+    <center>
+      <h1> junit4 </h1>
+    </center>
+    </b-row>
+    <b-row>
+      <b-col>
+        <img src="../../assets/Screen_Shot_2018-04-04_at_7.43.04_PM.png"/>
+      </b-col>
+      <b-col>
+        <p class="card-text">
+          JUnit is a simple framework to write repeatable tests. It is an instance of the xUnit architecture for unit testing frameworks.
+        </p>
+        <b-button target="_blank" href="https://github.com/junit-team/junit4"> GitHub Link</b-button>
+      </b-col>
+    </b-row>
+  </div>
 </template>
 
 <script>

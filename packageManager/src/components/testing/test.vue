@@ -33,7 +33,9 @@
             </transition>
           </center> 
         </b-col>
-        
+
+        <b-col cols="1"/>
+
         <b-col cols="2">
           <br>
           <br>
@@ -42,20 +44,22 @@
           <br>
           <br>
           <div class="filter">
+
+            <!-- pop, stack, iss, diff, date -->
           <b-row>
             <b-button to="/testing/popularity" block="true" variant="outline-success" id="Performance" class="testingBtn">Popularity</b-button> 
           </b-row>
           <br>
           <b-row>
-            <b-button to="/testing/issue" block="true" variant="outline-warning" id="IssueResolve" class="testingBtn">Issue Resolve Time</b-button>
+            <b-button to="/testing/stackoverflow" block="true" variant="outline-primary" id="Stackoverflow" class="testingBtn">Number of Stackoverflow</b-button>
+          </b-row>
+          <br>
+          <b-row>
+            <b-button to="/testing/issue" block="true" variant="outline-info" id="IssueResolve" class="testingBtn">Issue Resolve Time</b-button>
           </b-row>
           <br>
           <b-row>
             <b-button to="/testing/differences" block="true" variant="outline-danger" id="Differences" class="testingBtn">Number of Differences</b-button>
-          </b-row>
-          <br>
-           <b-row>
-            <b-button to="/testing/stackoverflow" block="true" variant="outline-primary" id="Stackoverflow" class="testingBtn">Number of Stackoverflow</b-button>
           </b-row>
           <br>
           <b-row>

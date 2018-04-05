@@ -1,13 +1,13 @@
 <template>
-  <b-card title="testng"
-            tag="article"
-            style="max-width: 50rem;"
+  <b-card tag="article"
+            style="max-width: 40rem;"
             class="mb-2">
-    <img src="../../assets/Screen_Shot_2018-04-04_at_7.43.04_PM.png"/>
+    <p id="title"> testng </p>
+    <img src="../../assets/Screen_Shot_2018-04-04_at_7.43.04_PM.png"/>        
     <p class="card-text">
-      Some quick example text to build on the card title and make up the bulk of the card's content.
+      TestNG is a testing framework inspired from JUnit and NUnit but introducing some new functionalities that make it more powerful and easier to use
     </p>
-    <b-button href="#" variant="primary">Go somewhere</b-button>
+    <b-button target="_blank" href="https://github.com/cbeust/testng"> GitHub Link</b-button>
   </b-card>
 </template>
 
@@ -18,4 +18,17 @@ export default {
 </script>
 
 <style>
+#title {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+img {
+  width: 500px;
+}
+
+.gitBtn {
+  width: 100px;
+  height: 100px;
+}
 </style>

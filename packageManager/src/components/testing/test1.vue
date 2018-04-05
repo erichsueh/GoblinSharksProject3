@@ -1,6 +1,6 @@
 <template>
 	<div>
-  	<h1>Performance</h1>
+  	<h1><b>Performance</b></h1>
   	<junit4></junit4>
   	<testng></testng>
   </div>

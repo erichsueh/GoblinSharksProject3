@@ -37,7 +37,7 @@
           <b-row>
             <b-button to="/testing/test2">To Test2</b-button>
           </b-row>
-        </b-col>>
+        </b-col>
       </b-row>
     </b-container>
   </div>

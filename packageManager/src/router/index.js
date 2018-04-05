@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
 import TestingMain from '@/components/testing/test'
+import TestHome from '@/components/testing/testhome'
 import Test1 from '@/components/testing/test1'
 import Test2 from '@/components/testing/test2'
 
@@ -29,6 +30,10 @@ export default new Router({
       name: 'testing',
       component: TestingMain,
       children: [
+        {
+          path: '',
+          component: TestHome
+        },
         {
           path: 'test1',
           component: Test1

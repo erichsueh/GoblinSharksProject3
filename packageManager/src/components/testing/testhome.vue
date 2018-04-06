@@ -1,7 +1,8 @@
 <template>
 	<center>
 	<div>
-	  <h1>Test Home</h1>
+		<br>
+	  <h1>Testing</h1>
 	  <br>
 	  <b-row>
 	  	<b-col cols="2">

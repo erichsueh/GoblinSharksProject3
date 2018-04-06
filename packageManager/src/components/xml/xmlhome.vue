@@ -1,7 +1,8 @@
 <template>
 	<center>
 	<div>
-	  <h1>Utilities Home</h1>
+		<br>
+	  <h1>XML</h1>
 	  <br>
 	  <b-row>
 	  	<b-col cols="2">

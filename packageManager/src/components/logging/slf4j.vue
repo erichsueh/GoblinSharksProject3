@@ -10,15 +10,15 @@
 
         <b-card-body>
           <p>
-            Description
+            The Simple Logging Facade for Java (SLF4J) serves as a simple facade or abstraction for various logging frameworks (e.g. java.util.logging, logback, log4j) allowing the end user to plug in the desired logging framework at deployment time. 
           </p>
         </b-card-body>
 
         <b-button target="_blank" href="https://github.com/qos-ch/slf4j"> GitHub Link</b-button>
       </b-col>
-
-      <b-col>
-        <img src="../../assets/JUnit.jpg"/>
+      
+      <b-col align-self="center">
+        <img src="../../assets/JUnit4.png"/>
       </b-col>
 
     </b-row>

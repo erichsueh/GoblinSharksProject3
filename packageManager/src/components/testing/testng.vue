@@ -24,9 +24,7 @@
         </button>
       </b-col>
 
-      <b-col>
-        <br>
-        <br>
+      <b-col align-self="center">
         <img src="../../assets/TestNG.png"/>
       </b-col>
 

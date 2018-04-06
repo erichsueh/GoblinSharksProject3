@@ -18,7 +18,7 @@
       </b-col>
 
       <b-col>
-        <img src="../../assets/JUnit.jpg"/>
+        <img src="../../assets/JUnit4.png/>
       </b-col>
 
     </b-row>

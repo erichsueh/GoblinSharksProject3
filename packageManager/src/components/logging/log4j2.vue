@@ -17,8 +17,8 @@
         <b-button target="_blank" href="https://github.com/apache/logging-log4j2"> GitHub Link</b-button>
       </b-col>
 
-      <b-col>
-        <img src="../../assets/JUnit.jpg"/>
+      <b-col align-self="center">
+        <img src="../../assets/JUnit4.png"/>
       </b-col>
 
     </b-row>

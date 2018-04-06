@@ -17,9 +17,7 @@
         </a>
       </b-col>
 
-      <b-col>
-
-
+      <b-col align-self="center">
         <img src="../../assets/CommonsLang.png" class="graphs"/>
       </b-col>
 

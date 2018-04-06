@@ -1,8 +1,8 @@
 <template>
 	<div>
     <br>
-  	<h1 class="filter-title"><b>Issue Resolve Time</b></h1>
-    <p>description</p>
+  	<h1 class="filter-title"><b>Popularity</b></h1>
+    <p>Popularity is how many people use the program. The higher the number the better.</p>
     <commonslang></commonslang>
     <guava></guava>
   </div>

@@ -2,7 +2,7 @@
 	<div>
     <br>
   	<h1 class="filter-title"><b>Issue Resolve Time</b></h1>
-    <p>description</p>
+    <p>The issues is how quickly someone response to an issue. Lower is better.</p>
     <guava></guava>
   	<commonslang></commonslang>
   </div>

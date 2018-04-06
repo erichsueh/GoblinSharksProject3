@@ -1,9 +1,28 @@
 <template>
-  <h1>Utility Home</h1>
+	<center>
+	<div>
+	  <h1>Utilities Home</h1>
+	  <br>
+	  <b-row>
+	  	<b-col cols="2">
+	  	</b-col>
+	  	<b-col cols="">
+	  		<p class="homeTxt"> Utility libraries provides additional methods and functionalities when standard libraries fail to provide enough methods for handling core objects. Its main goal is to improve developer life and	enhance projects. Additional helper utilities can include: String manipulation methods, concurrency, or caching. </p>
+	  	</b-col>
+	  	<b-col cols="2">
+	  	</b-col>
+	  </b-row>
+	 </div>
+	 </center>
 </template>
 
 <script>
 export default {
-  name: 'utilhome'
+  name: 'test1'
 }
 </script>
+<style>
+.homeTxt {
+	text-align: left;
+}
+</style>

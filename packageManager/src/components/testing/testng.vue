@@ -18,7 +18,9 @@
       </b-col>
 
       <b-col>
-        <img src="../../assets/TestNG.jpg" class="graphs">
+
+
+        <img src="../../assets/TestNG.png" class="graphs"/>
       </b-col>
 
     </b-row>

@@ -1,9 +1,20 @@
 <template>
-  <h1># of differences</h1>
+	<div>
+    <br>
+  	<h1 class="filter-title"><b>Number of Differences</b></h1>
+    <p>description</p>
+    <testng></testng>
+  	<junit4></junit4>
+  </div>
 </template>
 
 <script>
+import junit4 from '@/components/testing/junit4'
+import testng from '@/components/testing/testng'
 export default {
-  name: 'test3'
+  components: {
+    junit4,
+    testng
+  }
 }
 </script>

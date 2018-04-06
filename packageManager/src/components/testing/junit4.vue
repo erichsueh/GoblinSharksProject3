@@ -11,14 +11,19 @@
             JUnit is a simple framework to write repeatable tests. It is an instance of the xUnit architecture for unit testing frameworks.
           </p>
         </b-card-body>
+
         <p class="date">Last Modified Date: 2018-02-15</p>
         <a target="_blank" href="https://github.com/junit-team/junit4">
           <img src="../../assets/github1.png" class="gitImage">
         </a>
+
       </b-col>
       
+
       <b-col>
-        <img src="../../assets/JUnit.jpg" class="graphs">
+
+
+        <img src="../../assets/JUnit4.png" class="graphs"/>
       </b-col>
 
     </b-row>

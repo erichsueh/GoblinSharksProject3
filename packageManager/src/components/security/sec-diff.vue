@@ -1,9 +1,16 @@
 <template>
-  <h1># of differences</h1>
+	<div>
+    <br>
+  	<h1 class="filter-title"><b>Number of Differences</b></h1>
+    <p>description</p>
+  	<testng></testng>
+  	<junit4></junit4>
+  </div>
 </template>
 
 <script>
+
 export default {
-  name: 'test3'
+
 }
 </script>

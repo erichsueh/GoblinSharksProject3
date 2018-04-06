@@ -69,4 +69,8 @@ export default {
 p {
 text-align: left
 }
+
+.filter-title {
+  text-align: left
+}
 </style>

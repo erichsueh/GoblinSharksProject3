@@ -14,7 +14,11 @@
           </p>
         </b-card-body>
 
-        <b-button target="_blank" href="https://github.com/qos-ch/slf4j"> GitHub Link</b-button>
+        <p class="date">Last Modified Date: 2018-02-15</p>
+        <a target="_blank" href="https://github.com/junit-team/junit4">
+          <img src="../../assets/github1.png" class="gitImage">
+        </a>
+
       </b-col>
       
       <b-col align-self="center">

@@ -17,7 +17,7 @@
         <b-button target="_blank" href="https://github.com/qos-ch/logback"> GitHub Link</b-button>
       </b-col>
 
-      <b-col>
+      <b-col align-self="center">
         <img src="../../assets/JUnit4.png"/>
       </b-col>
 

@@ -17,7 +17,7 @@
         </a>
       </b-col>
 
-      <b-col>
+      <b-col align-self="center">
         <img src="../../assets/TestNG.png" class="graphs"/>
       </b-col>
 

@@ -19,7 +19,7 @@
 
       </b-col>
 
-      <b-col>
+      <b-col align-self="center">
         <img src="../../assets/JUnit4.png" class="graphs"/>
       </b-col>
 

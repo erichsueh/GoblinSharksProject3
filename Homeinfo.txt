@@ -1,0 +1,27 @@
+Testing:
+Is an automated (or manually) implementation of short code fragments that tests entire interfaces, classes, or other components during the development process. Unit tests are written and run by software developers or white box testers to ensure that code meets its design and behaves as intended. The goal of unit testing is to show that individual parts of a whole program are correct, consequently, this helps with finding problems early during the development process and easier documentation.
+
+Logging:
+As a common issue for development teams, logging indicates the recording of activities. To understand critical information of runtime behaviours of any application, logging is an important element in development. Cases where logging can be used includes: when expecting specific scenarios to happen, and encountering unexpected events or errors.
+
+Utilities:
+Utility libraries provides additional methods and functionalities when standard libraries fail to provide enough methods for handling core objects. Its main goal is to improve developer life and	enhance projects. Additional helper utilities can include: String manipulation methods, concurrency, or caching.
+
+Mocking:
+Is a process used in unit testing when the unit being tested has external dependencies. As a result, this method avoids errors such as false positives when integration of dependencies are buggy. Mocking focuses on the code being tested, and not on the performance of direct dependencies. Dependencies are replaced with fake objects that simulate the real ones.
+
+Cryptography:
+Directly synonymous with encryption, cryptography libraries acts as third parties that, in general, constructs and implements protocols that prevent third parties from reading private information. In modern cryptography, aspects in information security are strongly enforced such as data confidentiality and user authentication.
+
+Json:
+Json libraries are used when interchanging between objects and text formats. In a typical scenario, data exchanges between server and browser can only be with text, since Json is in text format, an object can be converted and then sent to the server/browser, Json is then received and turned into objects. The main objective is to be able to use objects as data without complicated parsing.
+
+Databases:
+Relational database management system frameworks that can be embedded in applications used for storage of information in databases.  
+
+Security:
+
+Object-Relational Mapping:
+
+XML:
+Libraries for working with XML files. In general, this is a solution for accessing, manipulating, and outputting XML data from code or external files. When XML files are complicated or tricky, available XML libraries 

@@ -19,7 +19,6 @@
 	    <div>
         <br>
         <h1><b>What is packageManager?</b></h1>
-        <br>
         <b-row>
           <b-col cols="2">
           </b-col>
@@ -29,6 +28,21 @@
               packageManager visualizes data that is available through GitHub representing various popular libraries.
               Visualizations represents many domains which are further categorized into 5 categories: Popularity,
               Number of Stackoverflow, Issue Resolve Time, Number of Differences, and Date. 
+            </p>
+          </b-col>
+          <b-col cols="2">
+          </b-col>
+        </b-row>
+
+        <br>
+        <h1><b>FAQ</b></h1>
+        <b-row>
+          <b-col cols="2">
+          </b-col>
+          <b-col cols="">
+            <p class="homeTxt"> 
+              To start, click on any of the domains on the tabs above. 
+              Then you can filter the results of the chosen domain using the buttons located on the right.
             </p>
           </b-col>
           <b-col cols="2">

@@ -1,0 +1,14 @@
+Popularity:
+Popularity is how many people use the program. The higher the number the better
+
+Date:
+The Date is based off of when the last update was
+
+# of Diff:
+The number of breaking changes between each git update. Lower is better
+
+Stack Questions:
+This shows how many stack overflow questions there have been overall
+
+Issues:
+The issues is how quickly someone response to an issue. Lower is better

@@ -10,7 +10,7 @@
 
         <b-card-body>
           <p>
-            Description
+            Apache Commons Logging is a thin adapter allowing configurable bridging to other, well known logging systems.
           </p>
         </b-card-body>
 

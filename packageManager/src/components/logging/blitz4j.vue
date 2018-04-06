@@ -10,7 +10,7 @@
 
         <b-card-body>
           <p>
-            Description
+            Blitz4j is a logging framework built on top of log4j to reduce contention and enable highly scalable logging without affecting application performance characteristics.
           </p>
         </b-card-body>
 

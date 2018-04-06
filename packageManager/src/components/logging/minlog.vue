@@ -10,7 +10,13 @@
 
         <b-card-body>
           <p>
-            Description
+            MinLog is a tiny Java logging library which features:
+
+            Zero overhead Logging statements below a given level can be automatically removed by javac at compile time. This means applications can have detailed trace and debug logging without having any impact on the finished product.
+
+            Extremely lightweight The entire project consists of a single Java file with ~100 non-comment lines of code.
+
+            Simple and efficient The API is concise and the code is very efficient at runtime.
           </p>
         </b-card-body>
 

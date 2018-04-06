@@ -10,7 +10,7 @@
 
         <b-card-body>
           <p>
-            Description
+            Tinylog is a lightweight open-source logging framework for Java and Android, optimized for ease of use.
           </p>
         </b-card-body>
 

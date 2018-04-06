@@ -2,7 +2,7 @@
 	<div>
     <br>
   	<h1 class="filter-title"><b>Date</b></h1>
-    <p>description</p>
+    <p>The Date is based off of when the last update was.</p>
 		<slf4j></slf4j>
 		<log4j2/>
 		<logback/>

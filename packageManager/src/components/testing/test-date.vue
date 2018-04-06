@@ -2,7 +2,7 @@
 	<div>
     <br>
   	<h1 class="filter-title"><b>Date</b></h1>
-    <p>description</p>
+    <p>The Date is based off of when the last update was.</p>
   	<testng></testng>
   	<junit4></junit4>
   </div>

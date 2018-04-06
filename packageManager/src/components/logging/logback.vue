@@ -10,7 +10,7 @@
 
         <b-card-body>
           <p>
-            Description
+            Logback is intended as a successor to the popular log4j project. Logback's architecture is sufficiently generic so as to apply under different circumstances. At present time, logback is divided into three modules, logback-core, logback-classic and logback-access.
           </p>
         </b-card-body>
 

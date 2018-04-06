@@ -25,7 +25,9 @@
       </b-col>
 
       <b-col>
-        <img src="../../assets/TestNG.jpg"/>
+        <br>
+        <br>
+        <img src="../../assets/TestNG.png"/>
       </b-col>
 
     </b-row>

@@ -19,8 +19,11 @@
         <b-button target="_blank" href="https://github.com/junit-team/junit4"> GitHub Link</b-button>
       </b-col>
       
+
       <b-col>
-        <img src="../../assets/JUnit.jpg"/>
+        <br>
+        <br>
+        <img src="../../assets/JUnit4.png"/>
       </b-col>
 
     </b-row>

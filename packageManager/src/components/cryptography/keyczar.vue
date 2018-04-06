@@ -10,7 +10,14 @@
 
         <b-card-body>
           <p>
-            Description
+            Keyczar is an open source cryptographic toolkit designed to make it easier and safer for developers to use cryptography in their applications. Keyczar supports authentication and encryption with both symmetric and asymmetric keys. Some features of Keyczar include:
+
+            A simple API
+            Key rotation and versioning
+            Safe default algorithms, modes, and key lengths
+            Automated generation of initialization vectors and ciphertext signatures
+            Java, Python, and C++ implementations
+            International support in Java
           </p>
         </b-card-body>
 

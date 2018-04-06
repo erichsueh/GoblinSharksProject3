@@ -10,7 +10,17 @@
 
         <b-card-body>
           <p>
-            Description
+            JMock is a library that supports test-driven development of Java code with mock objects.
+
+            Mock objects help you design and test the interactions between the objects in your programs.
+
+            The jMock library:
+
+            makes it quick and easy to define mock objects, so you don't break the rhythm of programming.
+            lets you precisely specify the interactions between your objects, reducing the brittleness of your tests.
+            works well with the autocompletion and refactoring features of your IDE
+            plugs into your favourite test framework
+            is easy to extend.
           </p>
         </b-card-body>
 

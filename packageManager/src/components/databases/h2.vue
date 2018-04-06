@@ -10,7 +10,13 @@
 
         <b-card-body>
           <p>
-            Description
+            Welcome to H2, the Java SQL database
+
+            The main features of H2 are:
+            Very fast, open source, JDBC API
+            Embedded and server modes; in-memory databases
+            Browser based Console application
+            Small footprint: around 2 MB jar file size
           </p>
         </b-card-body>
 

@@ -10,7 +10,9 @@
 
         <b-card-body>
           <p>
-            Description
+            Derby is a pure Java, standards-based relational database engine.
+            Derby aims to be an easy to use solution for data management for
+            software developers with zero administration for end users. 
           </p>
         </b-card-body>
 

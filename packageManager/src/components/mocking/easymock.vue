@@ -10,7 +10,7 @@
 
         <b-card-body>
           <p>
-            Description
+            EasyMock is a Java library that provides an easy way to use Mock Objects in unit testing.
           </p>
         </b-card-body>
 

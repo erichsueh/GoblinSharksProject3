@@ -10,7 +10,7 @@
 
         <b-card-body>
           <p>
-            Description
+            The package is organised so that it contains a light-weight API suitable for use in any environment (including the newly released J2ME) with the additional infrastructure to conform the algorithms to the JCE framework.
           </p>
         </b-card-body>
 

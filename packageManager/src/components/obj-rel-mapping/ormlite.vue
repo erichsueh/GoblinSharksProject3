@@ -10,7 +10,7 @@
 
         <b-card-body>
           <p>
-            Description
+            This package provides the Android specific functionality. You will also need to download the ormlite-core package as well. Users that are connecting to SQL databases via JDBC connections should download the ormlite-jdbc package instead of this Android one.
           </p>
         </b-card-body>
 

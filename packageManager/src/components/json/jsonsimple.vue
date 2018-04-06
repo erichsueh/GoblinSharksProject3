@@ -10,7 +10,7 @@
 
         <b-card-body>
           <p>
-            Description
+            A simple Java toolkit for JSON. You can use json-simple to encode or decode JSON text.
           </p>
         </b-card-body>
 

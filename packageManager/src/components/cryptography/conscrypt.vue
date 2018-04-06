@@ -10,7 +10,7 @@
 
         <b-card-body>
           <p>
-            Description
+            Conscrypt is a Java Security Provider (JSP) that implements parts of the Java Cryptography Extension (JCE) and Java Secure Socket Extension (JSSE). It uses BoringSSL to provide cryptographical primitives and Transport Layer Security (TLS) for Java applications on Android and OpenJDK.
           </p>
         </b-card-body>
 

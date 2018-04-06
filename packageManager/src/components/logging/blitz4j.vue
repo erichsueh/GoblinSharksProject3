@@ -14,11 +14,15 @@
           </p>
         </b-card-body>
 
-        <b-button target="_blank" href="https://github.com/Netflix/blitz4j"> GitHub Link</b-button>
+        <p class="date">Last Modified Date: 2017-10-17</p>
+        <a target="_blank" href="https://github.com/Netflix/blitz4j">
+          <img src="../../assets/github1.png" class="gitImage">
+        </a>
+        
       </b-col>
 
       <b-col align-self="center">
-        <img src="../../assets/JUnit4.png"/>
+        <img src="../../assets/Blitz4j.png"/>
       </b-col>
 
     </b-row>

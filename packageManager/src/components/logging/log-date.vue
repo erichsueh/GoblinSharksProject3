@@ -3,11 +3,11 @@
     <br>
   	<h1 class="filter-title"><b>Date</b></h1>
     <p>The Date is based off of when the last update was.</p>
-		<slf4j></slf4j>
-		<log4j2/>
-		<logback/>
-		<comlogging/>
 		<tinylog/>
+    <logback/>
+		<slf4/>
+		<log4j2/>
+		<comlogging/>
 		<blitz4j/>
 		<minlog/>
   </div>

@@ -14,15 +14,15 @@
           </p>
         </b-card-body>
 
-        <p class="date">Last Modified Date: 2018-02-15</p>
-        <a target="_blank" href="https://github.com/junit-team/junit4">
+        <p class="date">Last Modified Date: 2018-01-31</p>
+        <a target="_blank" href="https://github.com/qos-ch/slf4j">
           <img src="../../assets/github1.png" class="gitImage">
         </a>
 
       </b-col>
       
       <b-col align-self="center">
-        <img src="../../assets/JUnit4.png"/>
+        <img src="../../assets/SLF4J.png"/>
       </b-col>
 
     </b-row>

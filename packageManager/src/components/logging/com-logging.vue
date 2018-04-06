@@ -14,11 +14,15 @@
           </p>
         </b-card-body>
 
-        <b-button target="_blank" href="https://github.com/apache/commons-logging"> GitHub Link</b-button>
+        <p class="date">Last Modified Date: 2018-01-08</p>
+        <a target="_blank" href="hhttps://github.com/apache/commons-logging">
+          <img src="../../assets/github1.png" class="gitImage">
+        </a>
+        
       </b-col>
 
       <b-col align-self="center">
-        <img src="../../assets/JUnit4.png"/>
+        <img src="../../assets/CommonsLogging.png"/>
       </b-col>
 
     </b-row>

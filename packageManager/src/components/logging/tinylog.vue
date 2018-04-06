@@ -5,7 +5,7 @@
       <b-col>
 
         <a class="card-link" target="_blank" href="https://github.com/pmwmedia/tinylog" id="logo"> 
-          <h1 class="card-header">tingylog</h1> 
+          <h1 class="card-header">tinylog</h1> 
         </a>
 
         <b-card-body>
@@ -14,11 +14,15 @@
           </p>
         </b-card-body>
 
-        <b-button target="_blank" href="https://github.com/pmwmedia/tinylog"> GitHub Link</b-button>
+        <p class="date">Last Modified Date: 2018-02-20</p>
+        <a target="_blank" href="https://github.com/pmwmedia/tinylog">
+          <img src="../../assets/github1.png" class="gitImage">
+        </a>
+        
       </b-col>
 
       <b-col align-self="center">
-        <img src="../../assets/JUnit4.png"/>
+        <img src="../../assets/Tinylog.png"/>
       </b-col>
 
     </b-row>

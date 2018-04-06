@@ -10,15 +10,19 @@
 
         <b-card-body>
           <p>
-            Description
+            Apache Log4j 2 is an upgrade to Log4j that provides significant improvements over its predecessor, Log4j 1.x, and provides many of the improvements available in Logback while fixing some inherent problems in Logback's architecture.
           </p>
         </b-card-body>
 
-        <b-button target="_blank" href="https://github.com/apache/logging-log4j2"> GitHub Link</b-button>
+        <p class="date">Last Modified Date: 2018-01-31</p>
+        <a target="_blank" href="https://github.com/apache/logging-log4j2">
+          <img src="../../assets/github1.png" class="gitImage">
+        </a>
+
       </b-col>
 
       <b-col align-self="center">
-        <img src="../../assets/JUnit4.png"/>
+        <img src="../../assets/Log4j2.png"/>
       </b-col>
 
     </b-row>

@@ -14,11 +14,15 @@
           </p>
         </b-card-body>
 
-        <b-button target="_blank" href="https://github.com/EsotericSoftware/minlog"> GitHub Link</b-button>
+        <p class="date">Last Modified Date: 2017-07-07</p>
+        <a target="_blank" href="https://github.com/EsotericSoftware/minlog">
+          <img src="../../assets/github1.png" class="gitImage">
+        </a>
+        
       </b-col>
 
       <b-col align-self="center">
-        <img src="../../assets/JUnit4.png"/>
+        <img src="../../assets/Minlog.png"/>
       </b-col>
 
     </b-row>

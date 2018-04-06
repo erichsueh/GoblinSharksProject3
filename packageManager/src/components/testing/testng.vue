@@ -3,29 +3,22 @@
   <b-card>
     <b-row>
       <b-col>
-
         <a class="card-link" target="_blank" href="https://github.com/cbeust/testng" id="logo"> 
           <h1 class="card-header">TestNG</h1> 
         </a>
-
         <b-card-body>
           <p>
             TestNG is a testing framework inspired from JUnit and NUnit but introducing some new functionalities that make it more powerful and easier to use
           </p>
         </b-card-body>
-        
-        <p>Last Modified Date: 2018-02-20</p>
-
-        <!-- <b-button block target="_blank" href="https://github.com/cbeust/testng">
-         GitHub Link
-        </b-button> -->
-        <button>
-          Button
-        </button>
+        <p class="date">Last Modified Date: 2018-02-20</p>
+        <a target="_blank" href="https://github.com/cbeust/testng">
+          <img src="../../assets/github1.png" class="gitImage">
+        </a>
       </b-col>
 
-      <b-col align-self="center">
-        <img src="../../assets/TestNG.png"/>
+      <b-col>
+        <img src="../../assets/TestNG.png" class="graphs"/>
       </b-col>
 
     </b-row>
@@ -46,13 +39,8 @@ export default {
   font-weight: bold;
 }
 
-img {
+.graphs {
   width: 500px;
-}
-
-.gitBtn {
-  width: 100px;
-  height: 100px;
 }
 
 .card-text {
@@ -71,5 +59,12 @@ a:hover {
 .butsize {
   height: 40;
   width: 40;
+}
+.gitImage {
+  width: 175px;
+  float: left;
+}
+.date {
+  padding-left: 22px;
 }
 </style>

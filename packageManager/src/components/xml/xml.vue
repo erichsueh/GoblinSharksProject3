@@ -39,7 +39,7 @@
 
           <b-row>
             <b-button to="/xml/popularity" block="true" variant="outline-success" id="Performance" class="testingBtn">Popularity</b-button> 
-          </b-row>
+          </b-row>  
           <br>
           <b-row>
             <b-button to="/xml/stackoverflow" block="true" variant="outline-primary" id="Stackoverflow" class="testingBtn">Number of Stackoverflow</b-button>

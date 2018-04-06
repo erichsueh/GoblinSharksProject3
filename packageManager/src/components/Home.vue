@@ -18,13 +18,18 @@
     <center>
 	    <div>
         <br>
-        <h1>Utilities</h1>
+        <h1><b>What is packageManager?</b></h1>
         <br>
         <b-row>
           <b-col cols="2">
           </b-col>
           <b-col cols="">
-            <p class="homeTxt"> Utility libraries provides additional methods and functionalities when standard libraries fail to provide enough methods for handling core objects. Its main goal is to improve developer life and	enhance projects. Additional helper utilities can include: String manipulation methods, concurrency, or caching. </p>
+            <p class="homeTxt"> 
+              PackageManager is a web application dedicated to compliment and enhance any level of developer experience.
+              packageManager visualizes data that is available through GitHub representing various popular libraries.
+              Visualizations represents many domains which are further categorized into 5 categories: Popularity,
+              Number of Stackoverflow, Issue Resolve Time, Number of Differences, and Date. 
+            </p>
           </b-col>
           <b-col cols="2">
           </b-col>
